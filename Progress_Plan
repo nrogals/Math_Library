@@ -1,0 +1,13 @@
+The following will house documentation or goals for the MATH Library that I will work to develop.
+
+
+
+I think that the best method to build this library will be to work on first solving a series of 
+different iterative systems iteratively.
+
+From that experience, I will abstract the salient and relevant components to place into the library. 
+
+The library will be built upon Eigen which a high performance easy to use linear algebra library. 
+
+
+
