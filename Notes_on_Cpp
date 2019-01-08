@@ -1,0 +1,128 @@
+TODO: Finish Completing the list of keywords
+
+
+
+----------------------
+C++ Notes to Remember: 
+Keywords in C++
+----------------------
+
+
+
+asm:            invokes the inline assembler and can appear in C or C++ statement 
+else            
+new
+this            a hidden, constant pointer that gets passed to all non-static member functions and is available as a local variable within the body of all non-static functions.
+                'this' pointer is a constant pointer that holds the memory address of the current object. this not available with 
+                static members since the function is called with the object name
+auto            For variables, specifies taht the type of the variable that is being declard will be automatically deduced from its initializer
+enum
+operator
+throw
+bool 
+explicit 
+private  
+true
+break 
+export 	
+protected
+try
+case
+extern
+public
+typedef
+catch 
+false
+register
+typeid
+char 
+float
+reinterpret_cast 
+typename
+class 	
+for 
+return
+union
+const 	
+friend 	
+short 	
+unsigned
+const_cast 	
+goto 	
+signed 	
+using
+continue 	
+if 	
+sizeof 	
+virtual
+default 	
+inline 	
+static 	
+void
+delete 	
+int 	
+static_cast 	
+volatile
+do 	
+long 	
+struct 	
+wchar_t
+double 	
+mutable 	
+switch 	
+while
+dynamic_cast 	
+namespace 	
+template
+
+
+There are two types of templates: 
+
+1. Function Templates 
+
+
+Function Tempaltes are special functions that can operate with generic types. This allows one to create a function 
+whose functionality can be adapted to more than one type or class without repeating the entire code 
+
+
+2. Class Templates 
+
+
+
+
+Here is an example of a templated function: 
+
+template<class myType>
+myType GetMax (myType a, myType b){
+    return (a>b?a:b)
+}
+
+
+Class Templates:
+
+We also have the ability to write class templates, so that a class can have members that use template parameters. For example, 
+
+template <class T> 
+class mypair {
+    T values[2]
+
+    public: 
+        mypair(T first, T second){
+            values[0] = first; values[1]=second 
+
+
+        }
+
+}
+
+
+The word typdef is used to create an alias that can be used anywhere in place of a possibly more complex typename
+
+typedef unsigned long ulong; 
+
+It aliases the type usgined long to ulong; 
+
+
+
+
+
